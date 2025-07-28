@@ -1,27 +1,71 @@
 # task-3-SkillCraft
-Decision Tree Classifier for Customer Purchase Prediction
-Task - 3: Build a decision tree classifier to predict whether a customer will purchase a product or service based on their demographic and behavioral data.
-Overview
-This project implements a decision tree classifier to predict whether a customer will purchase a product or service based on their demographic and behavioral data. It utilizes Python and the scikit-learn library for machine learning tasks and data analysis.
+  
+**Decision Tree Classifier for Customer Purchase Prediction**
 
-Project Structure
-data/: Contains the dataset files used in the project.
-decision_tree_classifier.ipynb: Jupyter Notebook containing the code implementation of the decision tree classifier.
-list-of-orders.csv: CSV file containing the list of orders data.
-order-details.csv: CSV file containing the order details data.
-sales-target.csv: CSV file containing the sales target data.
-Steps Performed
-Data Preparation and Preprocessing:
+---
 
-Imported and merged the dataset files.
-Created a binary target variable indicating purchase.
-Selected relevant features for prediction.
-Model Building and Evaluation:
+## 📌 Task Description  
+Build a decision tree classifier to predict whether a customer will purchase a product or service based on their demographic and behavioral data.
 
-Split the data into training and testing sets.
-Created a decision tree classifier using scikit-learn.
-Trained the classifier and evaluated its performance using accuracy and classification report.
-Visualization and Analysis:
+---
 
-Visualized the decision tree and feature importance.
-Analyzed feature distribution and correlations.
+## 📝 Overview  
+This project implements a machine learning solution using a **Decision Tree Classifier** to predict customer purchases. It leverages Python’s `scikit-learn` library for model building, data preprocessing, and evaluation. The goal is to assist businesses in understanding the purchase intent of their customers based on existing data.
+
+---
+
+## 🗂️ Project Structure
+
+**data/**: Contains all relevant datasets used in the project.
+- **decision_tree_classifier.ipynb**: Jupyter Notebook with all code implementation.
+- ## 🔧 Steps Performed
+
+### 1. 📊 Data Preparation and Preprocessing
+- Merged `list-of-orders`, `order-details`, and `sales-target` datasets.
+- Created a **binary target variable** to indicate purchase behavior.
+- Selected relevant features (demographic and behavioral).
+
+### 2. 🤖 Model Building and Evaluation
+- Split the data into **training and testing** sets.
+- Built a **Decision Tree Classifier** using `scikit-learn`.
+- Trained the model and evaluated it using:
+  - Accuracy Score  
+  - Classification Report
+
+### 3. 📈 Visualization and Analysis
+- Visualized the Decision Tree.
+- Explored **feature importance**.
+- Analyzed feature distributions and correlations.
+
+---
+
+## 📚 Tech Stack
+- Python
+- Pandas
+- Scikit-learn
+- Matplotlib / Seaborn
+- Jupyter Notebook
+
+---
+
+## ✅ Results
+- Model performance metrics like accuracy and F1-score help in assessing the predictive power.
+- Feature importance identifies key factors influencing customer purchase decisions.
+
+---
+
+## 🚀 Future Improvements
+- Hyperparameter tuning for better accuracy.
+- Implement Random Forest or Gradient Boosting for comparison.
+- Deploy as a web app using Streamlit or Flask.
+
+---
+
+## 👩‍💻 Author  
+**Saniya Chhabra**  
+AI/DS Student | GGSIPU  
+[LinkedIn](https://www.linkedin.com/in/saniya-chhabra/) | [GitHub](https://github.com/saniyachhabra)
+
+---
+
+⭐ *Feel free to fork this repo, explore the notebook, and suggest improvements!*
